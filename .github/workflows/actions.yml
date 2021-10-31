@@ -1,0 +1,8 @@
+name: test-pipelines
+
+on: push
+jobs:
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello
